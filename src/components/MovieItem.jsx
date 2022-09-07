@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import React, {useState} from "react";
 
 function MovieItem(props) {
   const { title, released, director, poster } = props;
